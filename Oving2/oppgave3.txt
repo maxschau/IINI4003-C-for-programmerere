@@ -1,0 +1,7 @@
+Først vil man «holde av» 5 bytes i minnet. Deretter vil man ha en peker til første byte av de vi har holdt av.
+
+Ved cin >> text vil man la brukeren kunne skrive inn en tekst som lagres i variabelen text. Problemet med dette er at vi kun har 5 bytes tilgjengelig. Dersom brukeren skriver inn en tekst større enn 5 bytes vil kun de første fem bytene bli tatt med.
+
+Deretter vil vi få en while-løkke som vil lete etter bokstaven e.
+Problemet med denne er at vi alltid setter byten vi sjekker til search_for. Det vil si at vi manipulerer strengen slik at bytene blir endret til «e».
+I tillegg, dersom det ikke er noen e i strengen vil den ikke slutte å lete etter at strengen er gjennomsøkt. Den vil fortsette videre på andre adresser. Dette gjør at alle de bytene som blir lest vil bli endret til en e.

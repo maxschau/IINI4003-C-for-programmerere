@@ -1,0 +1,3 @@
+I første linje vil man definere en null-peker. Da vil pekeren initieres til 0. Det vil si at den ikke peker til noe som helst.
+Strcpy vil kopiere over det 2. argumentet til det første. Da er det viktig at det første argumentet er av stor nok størrelse slik at man unngår overflow. I dette tilfellet vil pekeren line ikke peke til noe som helst. Derfor vil dette være en dårlig ide.
+Man vil nemlig få en segmentation fault ettersom man ikke har nok plass til strengen.

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Oving2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave6">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave6/fast">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave5">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave5/fast">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave4">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave4/fast">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave1">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oppgave1/fast">
+				<Option output="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/oppgave1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oppgave1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/maxts/Programmering/NTNU/5.\ Semester/C++\ for\ Programmers/Oving2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave1.cpp">
+			<Option target="oppgave1"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave4.cpp">
+			<Option target="oppgave4"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave4.h">
+			<Option target="oppgave4"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave5.cpp">
+			<Option target="oppgave5"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave5.h">
+			<Option target="oppgave5"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave6.cpp">
+			<Option target="oppgave6"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/oppgave6.h">
+			<Option target="oppgave6"/>
+		</Unit>
+		<Unit filename="/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/oppgave6.dir
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/oppgave5.dir
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/oppgave4.dir
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving2/cmake-build-debug/CMakeFiles/oppgave1.dir
