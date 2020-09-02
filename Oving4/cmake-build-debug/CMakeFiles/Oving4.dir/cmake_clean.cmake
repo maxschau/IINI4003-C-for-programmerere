@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Oving4.dir/main.cpp.o"
+  "CMakeFiles/Oving4.dir/oppgave2.cpp.o"
   "Oving4"
   "Oving4.pdb"
 )

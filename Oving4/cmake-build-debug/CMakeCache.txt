@@ -227,8 +227,74 @@ Oving4_BINARY_DIR:STATIC=/Users/maxts/Programmering/NTNU/5. Semester/C++ for Pro
 //Value Computed by CMake
 Oving4_SOURCE_DIR:STATIC=/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving4
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//Path to a library.
+pkgcfg_lib_GTKMM_atk-1.0:FILEPATH=/usr/local/Cellar/atk/2.36.0/lib/libatk-1.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_atkmm-1.6:FILEPATH=/usr/local/Cellar/atkmm/2.28.0_2/lib/libatkmm-1.6.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_cairo:FILEPATH=/usr/local/Cellar/cairo/1.16.0_3/lib/libcairo.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_cairo-gobject:FILEPATH=/usr/local/Cellar/cairo/1.16.0_3/lib/libcairo-gobject.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_cairomm-1.0:FILEPATH=/usr/local/Cellar/cairomm/1.12.2_1/lib/libcairomm-1.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gdk-3:FILEPATH=/usr/local/Cellar/gtk+3/3.24.22/lib/libgdk-3.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gdk_pixbuf-2.0:FILEPATH=/usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/libgdk_pixbuf-2.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gdkmm-3.0:FILEPATH=/usr/local/Cellar/gtkmm3/3.24.2_1/lib/libgdkmm-3.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gio-2.0:FILEPATH=/usr/local/Cellar/glib/2.64.5/lib/libgio-2.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_giomm-2.4:FILEPATH=/usr/local/Cellar/glibmm/2.64.2/lib/libgiomm-2.4.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_glib-2.0:FILEPATH=/usr/local/Cellar/glib/2.64.5/lib/libglib-2.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_glibmm-2.4:FILEPATH=/usr/local/Cellar/glibmm/2.64.2/lib/libglibmm-2.4.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gobject-2.0:FILEPATH=/usr/local/Cellar/glib/2.64.5/lib/libgobject-2.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gtk-3:FILEPATH=/usr/local/Cellar/gtk+3/3.24.22/lib/libgtk-3.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_gtkmm-3.0:FILEPATH=/usr/local/Cellar/gtkmm3/3.24.2_1/lib/libgtkmm-3.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_harfbuzz:FILEPATH=/usr/local/Cellar/harfbuzz/2.7.2/lib/libharfbuzz.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_intl:FILEPATH=/usr/local/opt/gettext/lib/libintl.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_pango-1.0:FILEPATH=/usr/local/Cellar/pango/1.46.1/lib/libpango-1.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_pangocairo-1.0:FILEPATH=/usr/local/Cellar/pango/1.46.1/lib/libpangocairo-1.0.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_pangomm-1.4:FILEPATH=/usr/local/Cellar/pangomm/2.42.1/lib/libpangomm-1.4.dylib
+
+//Path to a library.
+pkgcfg_lib_GTKMM_sigc-2.0:FILEPATH=/usr/local/Cellar/libsigc++@2/2.10.3/lib/libsigc-2.0.dylib
 
 
 ########################
@@ -376,6 +442,90 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/local/bin/pkg-config][v0.29.2()]
+GTKMM_CFLAGS:INTERNAL=-I/usr/local/Cellar/libffi/3.3/include;-I/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0;-I/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include;-I/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6;-I/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0/unix-print;-I/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0;-I/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include;-I/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4;-I/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include;-I/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4;-I/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include;-I/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4;-I/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include;-I/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0;-I/usr/local/Cellar/glib/2.64.5/include/gio-unix-2.0;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/libepoxy/1.5.4_1/include;-I/usr/local/Cellar/pango/1.46.1/include/pango-1.0;-I/usr/local/Cellar/fribidi/1.0.10/include/fribidi;-I/usr/local/Cellar/harfbuzz/2.7.2/include/harfbuzz;-I/usr/local/Cellar/graphite2/1.3.14/include;-I/usr/local/Cellar/atk/2.36.0/include/atk-1.0;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0;-I/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/pixman/0.40.0/include/pixman-1;-I/usr/local/Cellar/fontconfig/2.13.1/include;-I/usr/local/opt/freetype/include/freetype2;-I/usr/local/Cellar/libpng/1.6.37/include/libpng16;-I/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0;-I/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include;-I/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0;-I/usr/local/Cellar/glib/2.64.5/include;-I/usr/local/Cellar/glib/2.64.5/include/glib-2.0;-I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include;-I/usr/local/opt/gettext/include;-I/usr/local/Cellar/pcre/8.44/include
+GTKMM_CFLAGS_I:INTERNAL=
+GTKMM_CFLAGS_OTHER:INTERNAL=
+GTKMM_FOUND:INTERNAL=1
+GTKMM_INCLUDEDIR:INTERNAL=/usr/local/Cellar/gtkmm3/3.24.2_1/include
+GTKMM_INCLUDE_DIRS:INTERNAL=/usr/local/Cellar/libffi/3.3/include;/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0;/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include;/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6;/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0/unix-print;/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0;/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include;/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4;/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include;/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4;/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include;/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4;/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include;/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0;/usr/local/Cellar/glib/2.64.5/include/gio-unix-2.0;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/libepoxy/1.5.4_1/include;/usr/local/Cellar/pango/1.46.1/include/pango-1.0;/usr/local/Cellar/fribidi/1.0.10/include/fribidi;/usr/local/Cellar/harfbuzz/2.7.2/include/harfbuzz;/usr/local/Cellar/graphite2/1.3.14/include;/usr/local/Cellar/atk/2.36.0/include/atk-1.0;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0;/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/pixman/0.40.0/include/pixman-1;/usr/local/Cellar/fontconfig/2.13.1/include;/usr/local/opt/freetype/include/freetype2;/usr/local/Cellar/libpng/1.6.37/include/libpng16;/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0;/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include;/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0;/usr/local/Cellar/glib/2.64.5/include;/usr/local/Cellar/glib/2.64.5/include/glib-2.0;/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include;/usr/local/opt/gettext/include;/usr/local/Cellar/pcre/8.44/include
+GTKMM_LDFLAGS:INTERNAL=-L/usr/local/Cellar/gtkmm3/3.24.2_1/lib;-L/usr/local/Cellar/atkmm/2.28.0_2/lib;-L/usr/local/Cellar/gtkmm3/3.24.2_1/lib;-L/usr/local/Cellar/glibmm/2.64.2/lib;-L/usr/local/Cellar/pangomm/2.42.1/lib;-L/usr/local/Cellar/glibmm/2.64.2/lib;-L/usr/local/Cellar/gtk+3/3.24.22/lib;-L/usr/local/Cellar/pango/1.46.1/lib;-L/usr/local/Cellar/harfbuzz/2.7.2/lib;-L/usr/local/Cellar/atk/2.36.0/lib;-L/usr/local/Cellar/cairo/1.16.0_3/lib;-L/usr/local/Cellar/glib/2.64.5/lib;-L/usr/local/Cellar/cairomm/1.12.2_1/lib;-L/usr/local/Cellar/cairo/1.16.0_3/lib;-L/usr/local/Cellar/libsigc++@2/2.10.3/lib;-L/usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib;-L/usr/local/Cellar/glib/2.64.5/lib;-L/usr/local/opt/gettext/lib;-lgtkmm-3.0;-latkmm-1.6;-lgdkmm-3.0;-lgiomm-2.4;-lpangomm-1.4;-lglibmm-2.4;-lgtk-3;-lgdk-3;-Wl,-framework,Cocoa;-Wl,-framework,Carbon;-Wl,-framework,CoreGraphics;-lpangocairo-1.0;-lpango-1.0;-lharfbuzz;-latk-1.0;-lcairo-gobject;-lgio-2.0;-lcairomm-1.0;-lcairo;-lsigc-2.0;-lgdk_pixbuf-2.0;-lgobject-2.0;-lglib-2.0;-lintl
+GTKMM_LDFLAGS_OTHER:INTERNAL=-Wl,-framework,Cocoa;-Wl,-framework,Carbon;-Wl,-framework,CoreGraphics
+GTKMM_LIBDIR:INTERNAL=/usr/local/Cellar/gtkmm3/3.24.2_1/lib
+GTKMM_LIBRARIES:INTERNAL=gtkmm-3.0;atkmm-1.6;gdkmm-3.0;giomm-2.4;pangomm-1.4;glibmm-2.4;gtk-3;gdk-3;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;gio-2.0;cairomm-1.0;cairo;sigc-2.0;gdk_pixbuf-2.0;gobject-2.0;glib-2.0;intl
+GTKMM_LIBRARY_DIRS:INTERNAL=/usr/local/Cellar/gtkmm3/3.24.2_1/lib;/usr/local/Cellar/atkmm/2.28.0_2/lib;/usr/local/Cellar/gtkmm3/3.24.2_1/lib;/usr/local/Cellar/glibmm/2.64.2/lib;/usr/local/Cellar/pangomm/2.42.1/lib;/usr/local/Cellar/glibmm/2.64.2/lib;/usr/local/Cellar/gtk+3/3.24.22/lib;/usr/local/Cellar/pango/1.46.1/lib;/usr/local/Cellar/harfbuzz/2.7.2/lib;/usr/local/Cellar/atk/2.36.0/lib;/usr/local/Cellar/cairo/1.16.0_3/lib;/usr/local/Cellar/glib/2.64.5/lib;/usr/local/Cellar/cairomm/1.12.2_1/lib;/usr/local/Cellar/cairo/1.16.0_3/lib;/usr/local/Cellar/libsigc++@2/2.10.3/lib;/usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib;/usr/local/Cellar/glib/2.64.5/lib;/usr/local/opt/gettext/lib
+GTKMM_LIBS:INTERNAL=
+GTKMM_LIBS_L:INTERNAL=
+GTKMM_LIBS_OTHER:INTERNAL=
+GTKMM_LIBS_PATHS:INTERNAL=
+GTKMM_MODULE_NAME:INTERNAL=gtkmm-3.0
+GTKMM_PREFIX:INTERNAL=/usr/local/Cellar/gtkmm3/3.24.2_1
+GTKMM_STATIC_CFLAGS:INTERNAL=-I/usr/local/Cellar/libffi/3.3/include;-I/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0;-I/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include;-I/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6;-I/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0/unix-print;-I/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0;-I/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include;-I/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4;-I/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include;-I/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4;-I/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include;-I/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4;-I/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include;-I/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0;-I/usr/local/Cellar/glib/2.64.5/include/gio-unix-2.0;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/libepoxy/1.5.4_1/include;-I/usr/local/Cellar/pango/1.46.1/include/pango-1.0;-I/usr/local/Cellar/fribidi/1.0.10/include/fribidi;-I/usr/local/Cellar/harfbuzz/2.7.2/include/harfbuzz;-I/usr/local/Cellar/graphite2/1.3.14/include;-I/usr/local/Cellar/atk/2.36.0/include/atk-1.0;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0;-I/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include;-I/usr/local/Cellar/cairo/1.16.0_3/include/cairo;-I/usr/local/Cellar/pixman/0.40.0/include/pixman-1;-I/usr/local/Cellar/fontconfig/2.13.1/include;-I/usr/local/opt/freetype/include/freetype2;-I/usr/local/Cellar/libpng/1.6.37/include/libpng16;-I/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0;-I/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include;-I/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0;-I/usr/local/Cellar/glib/2.64.5/include;-I/usr/local/Cellar/glib/2.64.5/include/glib-2.0;-I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include;-I/usr/local/opt/gettext/include;-I/usr/local/Cellar/pcre/8.44/include
+GTKMM_STATIC_CFLAGS_I:INTERNAL=
+GTKMM_STATIC_CFLAGS_OTHER:INTERNAL=
+GTKMM_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/Cellar/libffi/3.3/include;/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0;/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include;/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6;/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0/unix-print;/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0;/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include;/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4;/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include;/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4;/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include;/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4;/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include;/usr/local/Cellar/gtk+3/3.24.22/include/gtk-3.0;/usr/local/Cellar/glib/2.64.5/include/gio-unix-2.0;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/libepoxy/1.5.4_1/include;/usr/local/Cellar/pango/1.46.1/include/pango-1.0;/usr/local/Cellar/fribidi/1.0.10/include/fribidi;/usr/local/Cellar/harfbuzz/2.7.2/include/harfbuzz;/usr/local/Cellar/graphite2/1.3.14/include;/usr/local/Cellar/atk/2.36.0/include/atk-1.0;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0;/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include;/usr/local/Cellar/cairo/1.16.0_3/include/cairo;/usr/local/Cellar/pixman/0.40.0/include/pixman-1;/usr/local/Cellar/fontconfig/2.13.1/include;/usr/local/opt/freetype/include/freetype2;/usr/local/Cellar/libpng/1.6.37/include/libpng16;/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0;/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include;/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0;/usr/local/Cellar/glib/2.64.5/include;/usr/local/Cellar/glib/2.64.5/include/glib-2.0;/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include;/usr/local/opt/gettext/include;/usr/local/Cellar/pcre/8.44/include
+GTKMM_STATIC_LDFLAGS:INTERNAL=-L/usr/local/Cellar/libffi/3.3/lib;-L/usr/local/Cellar/gtkmm3/3.24.2_1/lib;-L/usr/local/Cellar/atkmm/2.28.0_2/lib;-L/usr/local/Cellar/gtkmm3/3.24.2_1/lib;-L/usr/local/Cellar/glibmm/2.64.2/lib;-L/usr/local/Cellar/pangomm/2.42.1/lib;-L/usr/local/Cellar/glibmm/2.64.2/lib;-L/usr/local/Cellar/gtk+3/3.24.22/lib;-L/usr/local/Cellar/libepoxy/1.5.4_1/lib;-L/usr/local/Cellar/pango/1.46.1/lib;-L/usr/local/Cellar/fribidi/1.0.10/lib;-L/usr/local/Cellar/harfbuzz/2.7.2/lib;-L/usr/local/Cellar/graphite2/1.3.14/lib;-L/usr/local/Cellar/atk/2.36.0/lib;-L/usr/local/Cellar/cairo/1.16.0_3/lib;-L/usr/local/Cellar/cairomm/1.12.2_1/lib;-L/usr/local/Cellar/cairo/1.16.0_3/lib;-L/usr/local/Cellar/pixman/0.40.0/lib;-L/usr/local/Cellar/fontconfig/2.13.1/lib;-L/usr/local/opt/freetype/lib;-L/usr/local/Cellar/libpng/1.6.37/lib;-L/usr/local/Cellar/libsigc++@2/2.10.3/lib;-L/usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib;-L/usr/local/Cellar/glib/2.64.5/lib;-L/usr/local/opt/gettext/lib;-L/usr/local/Cellar/pcre/8.44/lib;-lgtkmm-3.0;-latkmm-1.6;-lgdkmm-3.0;-lgiomm-2.4;-lpangomm-1.4;-lglibmm-2.4;-lgtk-3;-lgdk-3;-Wl,-framework,Cocoa;-Wl,-framework,Carbon;-Wl,-framework,CoreGraphics;-lepoxy;-ldl;-lpangocairo-1.0;-lm;-framework;CoreFoundation;-framework;ApplicationServices;-lpangoft2-1.0;-lm;-framework;CoreFoundation;-framework;ApplicationServices;-lpango-1.0;-lm;-framework;CoreFoundation;-framework;ApplicationServices;-lfribidi;-lharfbuzz;-lm;-framework;ApplicationServices;-lgraphite2;-latk-1.0;-lcairo-gobject;-lcairomm-1.0;-lcairo;-lz;-lpixman-1;-lfontconfig;-lexpat;-lfreetype;-lz;-lbz2;-lpng16;-lz;-lpng16;-lz;-lsigc-2.0;-lgdk_pixbuf-2.0;-lm;-lgio-2.0;-Wl,-framework,CoreFoundation;-Wl,-framework,Carbon;-Wl,-framework,Foundation;-Wl,-framework,AppKit;-lintl;-lresolv;-lgmodule-2.0;-lintl;-lz;-lgobject-2.0;-lintl;-lffi;-lglib-2.0;-lintl;-Wl,-framework,CoreFoundation;-Wl,-framework,Carbon;-Wl,-framework,Foundation;-Wl,-framework,AppKit;-liconv;-lpcre;-D_THREAD_SAFE;-pthread
+GTKMM_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-framework,Cocoa;-Wl,-framework,Carbon;-Wl,-framework,CoreGraphics;-framework;CoreFoundation;-framework;ApplicationServices;-framework;CoreFoundation;-framework;ApplicationServices;-framework;CoreFoundation;-framework;ApplicationServices;-Wl,-framework,CoreFoundation;-Wl,-framework,Carbon;-Wl,-framework,Foundation;-Wl,-framework,AppKit;-Wl,-framework,CoreFoundation;-Wl,-framework,Carbon;-Wl,-framework,Foundation;-Wl,-framework,AppKit;-D_THREAD_SAFE;-pthread
+GTKMM_STATIC_LIBDIR:INTERNAL=
+GTKMM_STATIC_LIBRARIES:INTERNAL=gtkmm-3.0;atkmm-1.6;gdkmm-3.0;giomm-2.4;pangomm-1.4;glibmm-2.4;gtk-3;gdk-3;epoxy;dl;pangocairo-1.0;m;pangoft2-1.0;m;pango-1.0;m;fribidi;harfbuzz;m;graphite2;atk-1.0;cairo-gobject;cairomm-1.0;cairo;z;pixman-1;fontconfig;expat;freetype;z;bz2;png16;z;png16;z;sigc-2.0;gdk_pixbuf-2.0;m;gio-2.0;intl;resolv;gmodule-2.0;intl;z;gobject-2.0;intl;ffi;glib-2.0;intl;iconv;pcre
+GTKMM_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/Cellar/libffi/3.3/lib;/usr/local/Cellar/gtkmm3/3.24.2_1/lib;/usr/local/Cellar/atkmm/2.28.0_2/lib;/usr/local/Cellar/gtkmm3/3.24.2_1/lib;/usr/local/Cellar/glibmm/2.64.2/lib;/usr/local/Cellar/pangomm/2.42.1/lib;/usr/local/Cellar/glibmm/2.64.2/lib;/usr/local/Cellar/gtk+3/3.24.22/lib;/usr/local/Cellar/libepoxy/1.5.4_1/lib;/usr/local/Cellar/pango/1.46.1/lib;/usr/local/Cellar/fribidi/1.0.10/lib;/usr/local/Cellar/harfbuzz/2.7.2/lib;/usr/local/Cellar/graphite2/1.3.14/lib;/usr/local/Cellar/atk/2.36.0/lib;/usr/local/Cellar/cairo/1.16.0_3/lib;/usr/local/Cellar/cairomm/1.12.2_1/lib;/usr/local/Cellar/cairo/1.16.0_3/lib;/usr/local/Cellar/pixman/0.40.0/lib;/usr/local/Cellar/fontconfig/2.13.1/lib;/usr/local/opt/freetype/lib;/usr/local/Cellar/libpng/1.6.37/lib;/usr/local/Cellar/libsigc++@2/2.10.3/lib;/usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib;/usr/local/Cellar/glib/2.64.5/lib;/usr/local/opt/gettext/lib;/usr/local/Cellar/pcre/8.44/lib
+GTKMM_STATIC_LIBS:INTERNAL=
+GTKMM_STATIC_LIBS_L:INTERNAL=
+GTKMM_STATIC_LIBS_OTHER:INTERNAL=
+GTKMM_STATIC_LIBS_PATHS:INTERNAL=
+GTKMM_VERSION:INTERNAL=3.24.2
+GTKMM_gtkmm-3.0_INCLUDEDIR:INTERNAL=
+GTKMM_gtkmm-3.0_LIBDIR:INTERNAL=
+GTKMM_gtkmm-3.0_PREFIX:INTERNAL=
+GTKMM_gtkmm-3.0_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+__pkg_config_arguments_GTKMM:INTERNAL=gtkmm-3.0;REQUIRED
+__pkg_config_checked_GTKMM:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_atk-1.0
+pkgcfg_lib_GTKMM_atk-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_atkmm-1.6
+pkgcfg_lib_GTKMM_atkmm-1.6-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_cairo
+pkgcfg_lib_GTKMM_cairo-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_cairo-gobject
+pkgcfg_lib_GTKMM_cairo-gobject-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_cairomm-1.0
+pkgcfg_lib_GTKMM_cairomm-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gdk-3
+pkgcfg_lib_GTKMM_gdk-3-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gdk_pixbuf-2.0
+pkgcfg_lib_GTKMM_gdk_pixbuf-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gdkmm-3.0
+pkgcfg_lib_GTKMM_gdkmm-3.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gio-2.0
+pkgcfg_lib_GTKMM_gio-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_giomm-2.4
+pkgcfg_lib_GTKMM_giomm-2.4-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_glib-2.0
+pkgcfg_lib_GTKMM_glib-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_glibmm-2.4
+pkgcfg_lib_GTKMM_glibmm-2.4-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gobject-2.0
+pkgcfg_lib_GTKMM_gobject-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gtk-3
+pkgcfg_lib_GTKMM_gtk-3-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_gtkmm-3.0
+pkgcfg_lib_GTKMM_gtkmm-3.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_harfbuzz
+pkgcfg_lib_GTKMM_harfbuzz-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_intl
+pkgcfg_lib_GTKMM_intl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_pango-1.0
+pkgcfg_lib_GTKMM_pango-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_pangocairo-1.0
+pkgcfg_lib_GTKMM_pangocairo-1.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_pangomm-1.4
+pkgcfg_lib_GTKMM_pangomm-1.4-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GTKMM_sigc-2.0
+pkgcfg_lib_GTKMM_sigc-2.0-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/local/Cellar/gtkmm3/3.24.2_1/lib
 

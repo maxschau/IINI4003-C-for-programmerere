@@ -131,44 +131,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Oving4
+# Target rules for targets named oppgave2
 
 # Build rule for target.
-Oving4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Oving4
-.PHONY : Oving4
+oppgave2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oppgave2
+.PHONY : oppgave2
 
 # fast build rule for target.
-Oving4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oving4.dir/build.make CMakeFiles/Oving4.dir/build
-.PHONY : Oving4/fast
+oppgave2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/build
+.PHONY : oppgave2/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named oppgave1
 
-.PHONY : main.o
+# Build rule for target.
+oppgave1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oppgave1
+.PHONY : oppgave1
+
+# fast build rule for target.
+oppgave1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/build
+.PHONY : oppgave1/fast
+
+oppgave1.o: oppgave1.cpp.o
+
+.PHONY : oppgave1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oving4.dir/build.make CMakeFiles/Oving4.dir/main.cpp.o
-.PHONY : main.cpp.o
+oppgave1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.o
+.PHONY : oppgave1.cpp.o
 
-main.i: main.cpp.i
+oppgave1.i: oppgave1.cpp.i
 
-.PHONY : main.i
+.PHONY : oppgave1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oving4.dir/build.make CMakeFiles/Oving4.dir/main.cpp.i
-.PHONY : main.cpp.i
+oppgave1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.i
+.PHONY : oppgave1.cpp.i
 
-main.s: main.cpp.s
+oppgave1.s: oppgave1.cpp.s
 
-.PHONY : main.s
+.PHONY : oppgave1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oving4.dir/build.make CMakeFiles/Oving4.dir/main.cpp.s
-.PHONY : main.cpp.s
+oppgave1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.s
+.PHONY : oppgave1.cpp.s
+
+oppgave2.o: oppgave2.cpp.o
+
+.PHONY : oppgave2.o
+
+# target to build an object file
+oppgave2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.o
+.PHONY : oppgave2.cpp.o
+
+oppgave2.i: oppgave2.cpp.i
+
+.PHONY : oppgave2.i
+
+# target to preprocess a source file
+oppgave2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.i
+.PHONY : oppgave2.cpp.i
+
+oppgave2.s: oppgave2.cpp.s
+
+.PHONY : oppgave2.s
+
+# target to generate assembly for a file
+oppgave2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.s
+.PHONY : oppgave2.cpp.s
 
 # Help Target
 help:
@@ -178,10 +218,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Oving4"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... oppgave1"
+	@echo "... oppgave2"
+	@echo "... oppgave1.o"
+	@echo "... oppgave1.i"
+	@echo "... oppgave1.s"
+	@echo "... oppgave2.o"
+	@echo "... oppgave2.i"
+	@echo "... oppgave2.s"
 .PHONY : help
 
 
