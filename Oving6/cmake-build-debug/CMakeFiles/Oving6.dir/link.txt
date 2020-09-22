@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Oving6.dir/main.cpp.o CMakeFiles/Oving6.dir/oppgave2.cpp.o  -o Oving6 
