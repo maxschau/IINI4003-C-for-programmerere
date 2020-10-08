@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving7/Fraction.h
+
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving7/main.cpp
+iostream
+-
+Fraction.h
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving7/Fraction.h
+
