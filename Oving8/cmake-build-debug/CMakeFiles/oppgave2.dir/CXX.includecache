@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving8/Pair.cpp
+
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving8/oppgave2.cpp
+iostream
+-
+Pair.cpp
+/Users/maxts/Programmering/NTNU/5. Semester/C++ for Programmers/Oving8/Pair.cpp
+
